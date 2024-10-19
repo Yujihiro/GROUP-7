@@ -1,0 +1,16 @@
+{
+  "name": "network-traffic",
+  "version": "1.0.0",
+  "description": "NETWORK TRAFFIC APPLICATION ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "GROUP 7",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^33.0.1",
+    "resize-img": "^2.0.0",
+    "toastify-js": "^1.12.0"
+  }
+}

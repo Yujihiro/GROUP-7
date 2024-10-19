@@ -1,0 +1,158 @@
+/* Body styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6A82FB, #FC5C7D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Container for the login card */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+/* Login form container with shadow and rounded corners */
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    width: 350px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.login-container:hover {
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.25);
+}
+
+/* Title styling */
+h2 {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 26px;
+    color: #333;
+}
+
+/* Input field container */
+.input-field {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Input field label */
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #333;
+}
+
+/* Input field styling with rounded borders and padding */
+.input-field input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Focus state for input fields */
+.input-field input:focus {
+    border-color: #6A82FB;
+    box-shadow: 0 0 8px rgba(106, 130, 251, 0.5);
+    outline: none;
+}
+
+/* Checkbox field styling */
+.checkbox-field {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.checkbox-field label {
+    margin-left: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #6A82FB;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #5c70d3;
+    box-shadow: 0 8px 16px rgba(92, 112, 211, 0.3);
+}
+
+/* Sign-up text below the login form */
+.signup-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+/* Sign-up button with no background but a clickable link style */
+.signup-btn {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.signup-btn:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 480px) {
+    .login-container {
+        width: 100%;
+        margin: 20px;
+    }
+
+    button {
+        padding: 12px;
+    }
+
+    .input-field input {
+        padding: 10px;
+    }
+}
+
