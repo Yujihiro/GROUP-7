@@ -139,6 +139,38 @@ button:hover {
     margin-top: 10px;
     font-size: 14px;
 }
+/* Main container for both title and form */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #6A82FB, #FC5C7D);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Title section styling */
+.title-section {
+    padding-right: 50px;
+    text-align: center;
+}
+
+.title-section h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+/* Form section for login and signup */
+.form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Other existing styles for the login and signup containers here */
+
 
 /* Responsive design for mobile devices */
 @media (max-width: 480px) {
